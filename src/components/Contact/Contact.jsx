@@ -28,10 +28,10 @@ const Contact = () => {
     } else {
       emailjs
         .sendForm(
-          process.env.REACT_PUBLIC_APP_SERVICE,
-          process.env.REACT_PUBLIC_APP_TEMPLATE,
+          process.env.PUBLIC_REACT_APP_SERVICE,
+          process.env.PUBLIC_REACT_APP_TEMPLATE,
           form.current,
-          process.env.REACT_PUBLIC_APP_API
+          process.env.PUBLIC_REACT_APP_API
         )
         .then(
           (result) => {
