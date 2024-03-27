@@ -18,10 +18,11 @@ const About = () => {
               Hi, My name is <b className="yellow">Vivekananthan </b>
               and I'm from <b className="yellow"> TamilNadu, India.</b>
               <br />
-              <br />My educational background is
-              BTech in the steam of Information Technology has given me a solid foundation in technical and
-              analytical skills. I have a strong
-              interest in and proficiency with
+              <br />
+              My educational background is BTech in the stream of Information
+              Technology has given me a solid foundation in technical and
+              analytical skills. I have a strong interest in and proficiency
+              with
               <b className="yellow"> Front-end</b> technologies. I'm now looking
               to launch my career as a React JS Developer.
               <br />
