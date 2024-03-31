@@ -9,6 +9,9 @@ import bmi from "../assets/projects/bmi.png";
 import currency from "../assets/projects/corrency.png";
 import weather from "../assets/projects/weather.png";
 import food from "../assets/projects/food.png";
+import gpf from "../assets/projects/gpf.png";
+import game from "../assets/projects/tictactoe.png";
+import calc from "../assets/projects/calc.png";
 
 const Projects = () => {
   return (
@@ -81,6 +84,38 @@ const Projects = () => {
               title="BMI Calculator"
               ghLink="https://github.com/svivek19/react-bmi-calculator.git"
               demoLink="https://bmi-calculator-vivek.netlify.app/"
+            />
+          </Col>
+        </Row>
+
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gpf}
+              isBlog={false}
+              title="GitHub Profile Finder"
+              ghLink="https://github.com/svivek19/github-profile-finder.git"
+              demoLink="https://github-profile-finder-vvk.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={game}
+              isBlog={false}
+              title="Tic Tac Toe Game"
+              ghLink="https://github.com/svivek19/tic-tac-toe-game-react.git"
+              demoLink="https://tic-tac-toe-react-vvk.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={calc}
+              isBlog={false}
+              title="Calculator"
+              ghLink="https://github.com/svivek19/calculator-react.git"
+              demoLink="https://calculator-react-vvk.netlify.app/"
             />
           </Col>
         </Row>
