@@ -40,9 +40,6 @@ const Techstack = () => {
         <SiTailwindcss />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        MUI
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiExpress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
