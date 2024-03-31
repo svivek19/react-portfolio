@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { DiJavascript1, DiReact } from "react-icons/di";
+import { DiJavascript1, DiReact, DiMongodb } from "react-icons/di";
 import {
   SiTailwindcss,
   SiHtml5,
@@ -8,7 +8,9 @@ import {
   SiBootstrap,
   SiFirebase,
   SiRedux,
+  SiExpress,
 } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
 
 const Techstack = () => {
   return (
@@ -36,6 +38,21 @@ const Techstack = () => {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiTailwindcss />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        MUI
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaNodeJs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        C
       </Col>
     </Row>
   );

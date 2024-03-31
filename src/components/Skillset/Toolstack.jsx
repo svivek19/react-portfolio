@@ -6,6 +6,8 @@ import { IoLogoVercel } from "react-icons/io5";
 import { SiAdobephotoshop } from "react-icons/si";
 import { SiCanva } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
+import { FaUbuntu } from "react-icons/fa";
+import { FaLinux } from "react-icons/fa";
 
 const Toolstack = () => {
   return (
@@ -30,6 +32,12 @@ const Toolstack = () => {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaUbuntu />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaLinux />
       </Col>
     </Row>
   );
