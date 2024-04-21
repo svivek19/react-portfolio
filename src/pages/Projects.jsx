@@ -12,6 +12,8 @@ import food from "../assets/projects/food.png";
 import gpf from "../assets/projects/gpf.png";
 import game from "../assets/projects/tictactoe.png";
 import calc from "../assets/projects/calc.png";
+import multi from "../assets/projects/multistepform.png";
+import fdw from "../assets/projects/food-delivery-website.png";
 
 const Projects = () => {
   return (
@@ -47,11 +49,11 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={food}
+              imgPath={fdw}
               isBlog={false}
-              title="Recipe Finder"
-              ghLink="https://github.com/svivek19/recipe-finder-react.git"
-              demoLink="https://recipe-finder-vivek.netlify.app/"
+              title="Food Delivery Website"
+              ghLink="https://github.com/svivek19/food-delivery-website.git"
+              demoLink="https://vbite.vercel.app/"
             />
           </Col>
         </Row>
@@ -116,6 +118,28 @@ const Projects = () => {
               title="Calculator"
               ghLink="https://github.com/svivek19/calculator-react.git"
               demoLink="https://calculator-react-vvk.netlify.app/"
+            />
+          </Col>
+        </Row>
+
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={multi}
+              isBlog={false}
+              title="Multi Step Form"
+              ghLink="https://github.com/svivek19/Aeonaxy-Technologies-Private-Limited.git"
+              demoLink="https://aeonaxy-technologies-pvt-limited.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={food}
+              isBlog={false}
+              title="Recipe Finder"
+              ghLink="https://github.com/svivek19/recipe-finder-react.git"
+              demoLink="https://recipe-finder-vivek.netlify.app/"
             />
           </Col>
         </Row>
