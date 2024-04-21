@@ -10,7 +10,7 @@ import {
   SiRedux,
   SiExpress,
 } from "react-icons/si";
-import { FaNodeJs } from "react-icons/fa";
+import { FaNodeJs, FaPython } from "react-icons/fa";
 
 const Techstack = () => {
   return (
@@ -50,6 +50,9 @@ const Techstack = () => {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         C
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaPython />
       </Col>
     </Row>
   );
